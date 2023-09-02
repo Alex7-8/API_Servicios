@@ -32,18 +32,18 @@ namespace DataLayer.Conexion
         {
             SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
 
-            string strSql = "Server = tcp:srvprci.database.windows.net,1433;Initial Catalog = DB_Pruebas_Servicio; Persist Security Info=False;User ID = DB_CI; Password=C@f3servi$;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout = 30";
-            //  builder.DataSource = string.IsNullOrEmpty(servidor) ? "srvprci.database.windows.net" : servidor;
-            //  builder.UserID = string.IsNullOrEmpty(strUsuario) ? "DB_Pruebas_Servicio" : strUsuario;
-            //  builder.Password = string.IsNullOrEmpty(strContrasenia) ? "C@f3servi$" : strContrasenia;
-            //  builder.InitialCatalog = string.IsNullOrEmpty(database) ? "DB_CI" : database;
-            //  builder.PersistSecurityInfo = false;
-            //  builder.MultipleActiveResultSets = false;
-            //  builder.Encrypt = false;
-            //  builder.TrustServerCertificate = false;
-            ////  builder.ConnectTimeout = 30;
-            // strConexion = builder.ConnectionString;
-            strConexion = strSql;
+            //string strSql = "Server = tcp:srvprci.database.windows.net,1433;Initial Catalog = DB_Pruebas_Servicio; Persist Security Info=False;User ID = DB_CI; Password=C@f3servi$;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Connection Timeout = 30";
+              builder.DataSource = string.IsNullOrEmpty(servidor) ? "wdb4.my-hosting-panel.com" : servidor;
+              builder.UserID = string.IsNullOrEmpty(strUsuario) ? "srvcentr_dbserv" : strUsuario;
+              builder.Password = string.IsNullOrEmpty(strContrasenia) ? "C@f3servi$" : strContrasenia;
+              builder.InitialCatalog = string.IsNullOrEmpty(database) ? "_Control_Servicios" : database;
+              builder.PersistSecurityInfo = false;
+              builder.MultipleActiveResultSets = false;
+              builder.Encrypt = false;
+              builder.TrustServerCertificate = false;
+              builder.ConnectTimeout = 30;
+             strConexion = builder.ConnectionString;
+           // strConexion = strSql;
         }
         public void Add_Par_Datetime_Input(string nombre, DateTime valor)
         {

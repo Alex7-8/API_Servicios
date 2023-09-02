@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6nZsGCONiuAp4JwIuiWinys3J7IoBmS7XaSIIuC4dpMo3DWCGS2/CD7xwfWqmLt4OYfvDyxT3Y7gIpA31icb5A==",
+  "dgSpecHash": "lR14gqb/De48HyaEl6HeA0X5yYdX4aXatILfKwCAwmit51IgF7NsfCAlRWLXmQJkabRRdiqW21RonBLiJTFQKA==",
   "success": true,
-  "projectFilePath": "C:\\Project\\DataLayer\\DataLayer.csproj",
+  "projectFilePath": "C:\\ProyectoTesis\\API_Servicios\\DataLayer\\DataLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jefferson\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Jefferson\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

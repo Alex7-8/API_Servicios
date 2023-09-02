@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\DataLayer\\DataLayer.csproj": {}
+    "C:\\ProyectoTesis\\API_Servicios\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Project\\DataLayer\\DataLayer.csproj": {
+    "C:\\ProyectoTesis\\API_Servicios\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\ProyectoTesis\\API_Servicios\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Project\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\ProyectoTesis\\API_Servicios\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\Jefferson\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\DataLayer\\obj\\",
+        "outputPath": "C:\\ProyectoTesis\\API_Servicios\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

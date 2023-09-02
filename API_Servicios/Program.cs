@@ -1,4 +1,6 @@
+using LogicLayer.Helper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
@@ -6,6 +8,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 string secretKey = builder.Configuration.GetValue<string>("AppConfig:MySecret");
+
+
+
+
+
+
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -32,6 +41,10 @@ builder.Services.AddCors(p => p.AddPolicy("corspolicy", build => {
 }));
 
 var app = builder.Build();
+
+
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsProduction() || app.Environment.IsDevelopment())
